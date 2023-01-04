@@ -1,0 +1,132 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+p,h1,h2,h3,h4,h5,h6{
+    line-height: 1;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+.mb40{
+    margin-bottom: 40px;
+}
+
+.w100{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.w80{
+    width: 80%;
+    max-width: 1000px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-wrapper{
+    background-color: rgb(202, 229, 248);
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgb(210, 215, 217) ;
+    z-index: 1;
+}
+.header-nav{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 3.125rem;
+    align-items: center;
+}
+.nav-li .nav-a{
+    display: inline-block;
+    padding: 4px 18px;
+    color: rgb(106, 110, 114);
+    font-size: 18px;
+    border:  2px solid rgb(106, 110, 114);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.nav-li:hover .nav-a{
+    color: #fff;
+    border-color: rgb(94, 127, 247);
+    background-color: rgb(94, 127, 247);
+}
+.nav-li.active .nav-a{
+    color: #fff;
+    border-color: rgb(94, 127, 247);
+    background-color: rgb(94, 127, 247);
+}
+/* 回到顶部 */
+.top{
+    position: fixed;
+    bottom: 20vh;
+    right: 8vw;
+    width: max-content;
+}
+.top .top-a{
+    display: inline-block;
+    font-size: 16px;
+    background-color:#fff;
+    text-align: center;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0px rgb(217, 219, 222);
+}
+.top .top-a span{
+    display: block;
+    padding: 10px;
+}
+.top .top-a .shang::after{
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 40px;
+    height: 1px;
+    width: 70%;
+    background-color: rgb(129, 132, 133);
+}
+
+/* 页面图片 */
+.c-banner-img-box{
+    height: 500px;
+}
+.c-banner-img{
+    height: 100%;
+    width: max-content;
+    margin: auto;
+}
+.c-banner-img img{
+    height: 100%;
+}
+
+/* chart */
+.chart-content-area{
+    width: 100%;
+
+}
+.chart-content-ul{
+    width: max-content;
+    margin: auto;
+    
+}
+.chart-content-li{
+    width: max-content;
+    margin: auto;
+    padding: 20px;
+}
